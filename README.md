@@ -1,5 +1,13 @@
 # EdgeOS
 
+## Purpose for Fork
+
+This is a fork of the EdgeOS integration by [elad-bar](https://github.com/elad-bar/ha-edgeos/) While that author is busy, this integrates 2 important patches:
+- fix_unknown_devices (resolves issues #153 and #154)
+- unknown_devices_dict (makes each item in unknown_devices.attributes.leased a dict - see #157)
+
+I will try to keep up with the head integration but no guarantees are providied.
+
 ## Description
 
 Provides an integration between EdgeOS (Ubiquiti) routers to Home Assistant.
